@@ -1,13 +1,17 @@
 [project]
 name = "mcp-sarvam"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.1.1"
+description = "A Model Context Protocol (MCP) server that provides access to Sarvam's language processing capabilities. This server enables LLMs to perform tasks such as translation, language identification, and transliteration, specifically supporting translation between English and Indic languages, as well as transliteration across different scripts."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "mcp[cli]>=1.4.1",
-    "mcp"
+    "mcp",
+    "requests>=2.31.0",
+    "requests-toolbelt>=1.0.0"
 ]
+
+license = "MIT"
 
 [build-system]
 requires = ["hatchling"]
