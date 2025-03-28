@@ -11,7 +11,7 @@ dependencies = [
     "requests-toolbelt>=1.0.0"
 ]
 
-license = "MIT"
+license = "LICENSE.md"
 
 [build-system]
 requires = ["hatchling"]
