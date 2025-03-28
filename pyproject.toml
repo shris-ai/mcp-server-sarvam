@@ -10,8 +10,8 @@ dependencies = [
     "requests>=2.31.0",
     "requests-toolbelt>=1.0.0"
 ]
-
-license = "LICENSE.md"
+license-files = ["LICENSE.md"]
+keywords = ["mcp", "mcp server", "sarvam, "mcp-server-sarvam", "mcp server sarvam"]
 
 [build-system]
 requires = ["hatchling"]
